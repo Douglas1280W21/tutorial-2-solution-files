@@ -1,8 +1,8 @@
-﻿/* STEP 5 (step 4 below)*/
+﻿/* STEP 3 H96 */
 
 /* @charset "utf-8"; */
 
-/* STEP 10 */
+/* STEP 9 H119 */
 
 /* @font-face {
    font-family: Quicksand;
@@ -10,7 +10,7 @@
         url('Quicksand-Regular.ttf') format('truetype');
 } */
 
-/* STEP 4 */
+/* STEP 4 H96 */
 /*
    New Perspectives on HTML5 and CSS3, 8th Edition
    Tutorial 2
@@ -27,7 +27,7 @@
 
 /* HTML and Body Styles */
 
-/* STEP 6 */
+/* STEP 5 H102 */
 
 /* html {
    background-color: hsl(27, 72%, 72%);
@@ -36,14 +36,28 @@
 body {
    color: rgb(91, 91, 91);
    background-color: ivory;
+
    font-family: Verdana, Geneva, sans-serif;
-} */
+} 
+
+h1 {
+   color: white;
+   background-color: rgb(222, 128, 60);
+}
+
+
+h2 {
+   color: white;
+   background-color: rgb(235, 177, 131);
+}
+
+*/
 
 
 
 /* Heading Styles */
 
-/* STEP 11 */
+/* STEP 10 H123 */
 
 /* h1 {
    font-size: 2.2em;
@@ -53,87 +67,100 @@ h2 {
    font-size: 1.5em;
 }
 
+/* STEP 9 and 13 H120  */
+/*
 h1, h2 {
    font-family: Quicksand, Verdana, Geneva, sans-serif;
    letter-spacing: 0.1em;
 }
+*/
+/* STEP 7 H113*/
 
-
+/*
 article#about_tss h1 {
    color: white;
    background-color: rgb(222, 128, 60);
 }
 
-* STEP 14 *
-
 article#about_tss h2 {
    color: white;
    background-color: rgb(235, 177, 131);
 }
+*/
 
-/* STEP 8 */
+/* STEP 8 H114 */
 
-
-/* article.syllabus h1, article.syllabus h2 {
+/* 
+article.syllabus h1, article.syllabus h2 {
    background-color: rgb(255, 185, 255);
    color: rgb(101, 101, 101);
-}  */
+}  
+*/
 
 /* Aside and Blockquote Styles */
-
+/* STEP 11 H124 */
+/*
 aside {
    font-size: 0.8em;
 }
 
-/* STEP 7 */
+/* STEP 6 H110 STEP 20 H144*/
 
 /* aside blockquote {
    color: rgb(232, 165, 116);
+   
    margin: 20px 5px; */
 
-/* STEP 21     */
 
+/* STEP 23 H154 */   
 /*   quotes: "\201C" "\201D";
 } */
 
-aside blockquote::before {
+/* STEP 24 H154 */
+/* aside blockquote::before {
+
    content: open-quote;
+
    font-family: 'Times New Roman', Times, serif;
    font-size: 1.6em;
    font-weight: bold;
 }
 
+
+
 aside blockquote::after {
+
    content: close-quote;
    font-family: 'Times New Roman', Times, serif;
    font-size: 1.6em;
    font-weight: bold;
-}
+} */
 
 /* Navigation Styles */	
 
-nav {
+/* STEP 12 H124 */
+/* nav {
    font-size: 0.8em;
-}
+} */
 
-/* STEP 12 */
-nav > ul {
-/* STEP 17 */
+/* STEP 13 and 17 and 18 H126 H136 H141*/
+/* nav > ul {
    line-height: 2em;
-/* STEP 15 */
+
    list-style-type: none;
+   
    padding-left: 5px;
-}
+} */
 
-/* STEP 18 */
 
-nav > ul > li.newgroup {
+/* STEP 19 H143 */
+/* nav > ul > li.newgroup {
    margin-top: 20px;
-}
+} */
 
-/* STEP 20 */
+/* STEP 22 H150  */
 
-nav > ul > li > a:link, nav > ul > li > a:visited {
+/* nav > ul > li > a:link, nav > ul > li > a:visited {
    color: rgb(151, 151, 151);
    text-decoration: none;
 }
@@ -141,12 +168,12 @@ nav > ul > li > a:link, nav > ul > li > a:visited {
 nav > ul > li > a:hover, nav > ul > li > a:active {
    color: rgb(255, 64, 255);
    text-decoration: underline;
-}
+} */
 
 /* List Styles */
 
-/* STEP 16 */
-/* STEP 19 */
+
+/* STEP 17 H137 STEP 21 H146*/
 
 /* article#about_tss ul li:first-of-type {
    list-style-image: url(runicon.png);
@@ -160,6 +187,8 @@ article#about_tss ul li:last-of-type {
    list-style-image: url(swimicon.png);
 }
 
+/* STEP 16 H135 */
+/*
 article.syllabus ol {
    list-style-type: upper-roman;
 }
@@ -174,8 +203,7 @@ article.syllabus ol ol ol {
 
 /* Footer Styles */
 
-/* STEP 13 */
-
+/* STEP 15 H129 */
 /* body > footer address {
    background-color: rgb(222,128,60);
    color: white;
